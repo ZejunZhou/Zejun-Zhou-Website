@@ -1,0 +1,51 @@
+.projectsection{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    left:250px;
+    margin-top: 80px;
+    right: 60px;
+}
+
+.projectimgsection{
+    display: flex;
+    justify-content: center;
+    transition: color 1s ease;
+    padding: 20px;
+}
+
+
+.projectimg{
+    width: 200px;
+    height: 180px;
+    object-fit:cover;
+}
+
+.projectimgsection:hover{
+    background-color: lightgray;
+}
+
+.projectsection h3{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
+    color: #494e52;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-color: lightgray;
+}
+
+.projectsection h2{
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    color: #494e52;
+    white-space: nowrap;
+}
+
+.projectsection p{
+    display: block;
+    font-size: 19px;
+    line-height: 2;
+    margin-bottom: 20px;
+    color: #494e52;
+    white-space: nowrap;
+}
